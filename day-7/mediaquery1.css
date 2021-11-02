@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+.parent{
+    position:relative;
+    background-color:#483434;
+    width:300px;
+    height:300px;
+}
+
+.child{
+   position:absolute; /*it means i am going to decide the position of this child ele,menet*/
+
+   background-color: pink;
+   width:100px;
+   height:100px;
+   margin:2px;
+   top:33%; /*33percent to place it in middle of the parent div*/
+   left:33%;
+}
+
+/* if we simply write right and top it will take with r4espect to browser but if we mention position:relative then it will take right and top with respect to parent div */ 

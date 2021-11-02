@@ -1,0 +1,35 @@
+img{
+    border-radius:50%;
+    width: 250px;
+}
+*{
+    background-color:aqua;
+}
+.toalign{
+    padding-left: 1.5cm;
+}
+
+.name_part{
+    color:black;
+    border: 2px solid white;
+    border-inline-style:dashed;
+    width:140px;
+    height:20px;
+    
+    
+}
+hr{
+    background-color:white;
+    height:2px;
+}
+
+.text_part{
+    color:black;
+    border: 2px solid white;
+    border-inline-style:dashed;
+    padding-left:30px;
+    margin: 20px;
+    
+
+
+}

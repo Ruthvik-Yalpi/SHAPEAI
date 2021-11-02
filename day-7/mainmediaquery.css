@@ -1,0 +1,13 @@
+body{
+    background-color: #43539c;
+}
+@media(min-width:768px){
+    body{
+        background-color: green;
+    }
+}
+@media(min-width:1024px){
+    body{
+        background-color: red;
+    }
+}
